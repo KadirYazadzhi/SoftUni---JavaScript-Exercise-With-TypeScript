@@ -10,7 +10,7 @@ The tasks are divided into folders based on the levels and topics covered in the
 
 ## 🛠️ How to Use
 1. Clone the repository to your local machine using the following command:
-   `git clone https://github.com/KadirYazadzhi/SoftUni---TypeScript.git`
+   `git clone https://github.com/KadirYazadzhi/SoftUni---JavaScript-Exercise-With-TypeScript.git`
 
 2. Navigate to the desired task folder to view the TypeScript files.
 3. If you encounter any issues or have suggestions for improvement, please open an issue or reach out to me via email.
