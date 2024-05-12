@@ -2,7 +2,7 @@ function moving(width :number, length :number, height :number, ...args :(number 
     let allSpace :number = width * length * height;
     let i :number = 0;
 
-    while (allSpace > 0 && args[i] != "Done") {
+    while (allSpace > 0 && args[i] !== "Done") {
         if (typeof args[i] === "number") {
             allSpace -= Number(args[i]);
         }

@@ -1,4 +1,4 @@
-function tradeCommissions(city :string, num :number) {
+function tradeCommissions(city :string, num :number) :void {
     if (num > 0 && num <= 500) {
         if (city === "Sofia") {
             num *=  0.05;

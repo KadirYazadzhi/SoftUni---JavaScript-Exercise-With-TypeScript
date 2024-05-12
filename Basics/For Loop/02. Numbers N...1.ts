@@ -1,5 +1,5 @@
 function numberToOne(num :number) :void {
-    for (let i = 1; i >= 1; i--) {
+    for (let i = num; i >= 1; i--) {
         console.log(i);
     }
 }
