@@ -3,7 +3,7 @@ function balance(...args :string[]) :void {
     let num :number = 0;
     let sum :number = 0;
 
-    while (args[i] != "NoMoreMoney") {
+    while (args[i] !== "NoMoreMoney") {
         num = Number(args[i]);
         if (num < 0) {
             console.log(`Invalid operation!`);

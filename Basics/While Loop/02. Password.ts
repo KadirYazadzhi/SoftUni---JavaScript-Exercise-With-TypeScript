@@ -4,7 +4,7 @@ function password(...args :string[]) :void {
     let data :string = args[2];
     let index :number = 3; 
 
-    while (data != password) {
+    while (data !== password) {
         data = args[index];
         index++;
     }

@@ -1,4 +1,4 @@
-function smallShop(product :string, city :string, count :number) :void {
+function smallShop(city :string, product :string, count :number) :void {
     if (city === "Sofia") {
         if (product === "coffee") {
             console.log(count * 0.50);
@@ -33,7 +33,7 @@ function smallShop(product :string, city :string, count :number) :void {
             console.log(count * 1.50);
         }
     }
-    else if (city === "Plovdiv") {
+    else if (city === "Varna") {
         if (product === "coffee") {
             console.log(count * 0.45);
         }
@@ -51,4 +51,4 @@ function smallShop(product :string, city :string, count :number) :void {
         }
     }
 }
-smallShop("cofee", "Varna", 2);
+smallShop("Varna", "cofee", 2);

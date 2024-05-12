@@ -2,7 +2,7 @@ function walking(...args :(string|number)[]) {
     let i :number = 0;
     let steps :number = 0;
 
-    while (args.length != i) {
+    while (args.length !== i) {
         if (typeof args[i] === "number" && !isNaN(Number(args[i]))) {
             steps += Number(args[i]);
         }

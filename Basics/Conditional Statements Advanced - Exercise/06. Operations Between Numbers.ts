@@ -11,7 +11,7 @@ function operationBetweenNumber(num1 :number, num2 :number, operator :string) :v
         total = num1 * num2;
     }
     else if (operator === "/") {
-        if (num2 != 0) {
+        if (num2 !== 0) {
             total = num1 / num2;
         }
         else {

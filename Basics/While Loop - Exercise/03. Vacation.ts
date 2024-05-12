@@ -5,8 +5,8 @@ function vacation(MoneyForTrip :number, money :number, ...args :string[]) {
     let count :number = 0;
     let badCount :number = 0;
 
-    while (i != args.length) {
-        if (i % 2 != 0) {
+    while (i !== args.length) {
+        if (i % 2 !== 0) {
             num = Number(args[i]);
             money += num;
         }

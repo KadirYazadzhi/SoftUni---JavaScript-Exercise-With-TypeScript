@@ -5,3 +5,4 @@ function clock() :void {
         }
     }
 }
+clock();

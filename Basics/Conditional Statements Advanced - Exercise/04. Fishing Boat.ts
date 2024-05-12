@@ -20,7 +20,7 @@ function fishing(budjet :number, seson :string, count :number) :void {
         price *= 0.75;
     }
 
-    if (count % 2 == 0 && seson != "Autumn") {
+    if (count % 2 === 0 && seson !== "Autumn") {
         price *= 0.95;
     }
 

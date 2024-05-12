@@ -1,6 +1,6 @@
 function readText(...args :string[]) :void {
     let count :number = 0;
-    while (args[count] != "Stop") {
+    while (args[count] !== "Stop") {
         console.log(args[count]);
         count++;
     }

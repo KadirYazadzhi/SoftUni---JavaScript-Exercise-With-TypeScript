@@ -7,7 +7,7 @@ function examPreparation(n :number, ...args :string[]) {
     let i :number = 0;
 
     while (true) {
-        if (i % 2 == 0 && args[i] != "Enough") {
+        if (i % 2 === 0 && args[i] !== "Enough") {
             name = args[i];
             count++;
         }

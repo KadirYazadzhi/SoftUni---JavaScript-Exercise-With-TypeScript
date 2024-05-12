@@ -5,6 +5,6 @@ function sumNumbers(str :string) :void {
         number = Number(str[i]);
         sum += number;
     }
-    console.log(`The sum of the digits is:${sum}`);
+    console.log(`The sum of the digits is: ${sum}`);
 }
 sumNumbers("1234");
