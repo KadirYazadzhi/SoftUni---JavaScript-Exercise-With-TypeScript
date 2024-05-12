@@ -1,6 +1,6 @@
-# 🚀 Basics exercise from SoftUni, adapted to TypeScript 📚
+# 🚀 JavaScript exercises from SoftUni, adapted to TypeScript 📚
 
-Welcome to the repository for Basics courses tasks from SoftUni, adapted to TypeScript!
+Welcome to the repository for JavaScript courses tasks from SoftUni, adapted to TypeScript!
 
 ## 📖 Introduction
 This repository contains a collection of tasks with TypeScript. The tasks are organized according to the levels, topics and exercises covered in the courses. Each task is thoroughly tested, but if you encounter any issues, feel free to reach out.
