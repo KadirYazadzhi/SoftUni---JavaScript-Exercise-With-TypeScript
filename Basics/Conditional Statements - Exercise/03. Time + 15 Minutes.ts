@@ -1,9 +1,9 @@
 function time(hours :number, minutes :number) :void {
     minutes += 15;
-    if (minutes > 60) {
+    if (minutes >= 60) {
         hours++;
         minutes -= 60;
-        if (hours === 23) {
+        if (hours > 23) {
             hours = 0;
         }
     }

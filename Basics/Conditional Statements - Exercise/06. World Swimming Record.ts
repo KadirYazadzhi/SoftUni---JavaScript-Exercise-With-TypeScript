@@ -1,6 +1,6 @@
 function swimmingPool(recordInSecond :number, distance :number, timeForOneMeter :number) :void {
     let time :number = distance * timeForOneMeter;
-    let plusTime = Math.round(distance / 15) * 12.5
+    let plusTime = Math.round((distance / 15) * 12.5)
     time += plusTime;
 
     if (time < recordInSecond) {
